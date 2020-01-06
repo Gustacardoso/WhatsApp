@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "566596611471",
+    "firebase_url": "https://whaspapp-52f50.firebaseio.com",
+    "project_id": "whaspapp-52f50",
+    "storage_bucket": "whaspapp-52f50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566596611471:android:b71537919bd7f7ed",
+        "android_client_info": {
+          "package_name": "empresasconsultoria.gcsapps.com.whatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "566596611471-qktbfauhdvr3r303pjurrevpdujr0flr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "empresasconsultoria.gcsapps.com.whatsapp",
+            "certificate_hash": "d64f7f0f5750abe19f38d4d24d46033a58e46a36"
+          }
+        },
+        {
+          "client_id": "566596611471-q4fq26q11i4pbptptnd6jbedsqh3rfne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4tyyJbTO6GH1XMhY7Oa4rEx2kyXtVpvA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "566596611471-q4fq26q11i4pbptptnd6jbedsqh3rfne.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

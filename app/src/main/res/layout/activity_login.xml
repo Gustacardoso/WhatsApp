@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LoginActivity"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+
+    android:background="@color/colorPrimaryDark">
+
+        <ImageView
+            android:layout_width="@dimen/logo_width"
+            android:layout_height="@dimen/logo_height"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"
+            android:layout_marginTop="52dp" />
+   <EditText
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:hint="@string/Email"
+       android:imeOptions="actionNext"
+       android:inputType="textEmailAddress"
+       android:textColor="@color/colorBranco"
+       android:id="@+id/id_emailLogin"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:inputType="textPassword"
+            android:imeOptions="actionGo"
+            android:hint="@string/senha"
+            android:textColor="@color/colorBranco"
+            android:id="@+id/id_senhaLogin"/>
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="45dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/botaoLogar"
+        android:textColor="@color/colorBranco"
+        android:id="@+id/id_botaoLogar"
+        android:theme="@style/botaoPadrao"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nao tem conta? Cadastre"
+        android:textColor="@color/colorBranco"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="-37dp"
+        android:textSize="15dp"
+        android:onClick="abrirCadastroUsuario"/>
+
+
+
+
+
+</LinearLayout>
